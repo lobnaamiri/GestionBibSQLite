@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Suppression">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/suppression"
+        android:textSize="24sp" />
+
+    <Spinner
+        android:id="@+id/spLivre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnSupp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/supprimer" />
+
+    <Button
+        android:id="@+id/btnRetour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/retour" />
+</LinearLayout>
